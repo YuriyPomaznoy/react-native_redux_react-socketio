@@ -1,0 +1,18 @@
+{
+  "name": "rn-srv",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "10.x",
+    "npm": "6.9.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.3.0"
+  }
+}
